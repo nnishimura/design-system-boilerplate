@@ -1,0 +1,7 @@
+/dist
+/lib
+/packages/**/dist
+/packages/**/lib
+/docs/storybook-static
+lerna-debug.log
+npm-debug.log

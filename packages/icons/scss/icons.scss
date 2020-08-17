@@ -1,0 +1,33 @@
+/*!
+ * Icomoon icon font definition
+ *
+ * How to add icons:
+ * 1. Add and download icons on iconmoon https://icomoon.io/
+ * 2. Convert icon.ttf to base64 and paste here. (Tool: https://jpillora.com/base64-encoder/)
+ */
+
+@font-face {
+  font-family: 'designSystemIcons';
+  src: url('data:application/x-font-ttf;charset=utf-8;base64,YOUR_CUSTOM_ICON_FONT_BASE_64') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'designSystemIcons' !important;
+  font-size: 26px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// your custom font class goes here

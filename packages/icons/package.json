@@ -1,0 +1,14 @@
+{
+  "name": "@sample/icons",
+  "version": "0.0.0-0",
+  "files": ["lib"],
+  "main": "lib/icons.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nnishimura/design-system-boilerplate.git",
+    "directory": "packages/icons"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && mkdir ./lib && cp -r ./scss/ ./lib/"
+  }
+}

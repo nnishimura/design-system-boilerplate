@@ -1,0 +1,14 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "allowBranch": [
+        "master",
+        "v2"
+      ],
+      "message": "chore(release): publish %s"
+    }
+  }
+}

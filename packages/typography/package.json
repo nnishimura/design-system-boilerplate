@@ -1,0 +1,14 @@
+{
+  "name": "@sample/typography",
+  "version": "0.0.0-0",
+  "files": ["lib", "fonts"],
+  "main": "lib/fonts.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nnishimura/design-system-boilerplate.git",
+    "directory": "packages/typography"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && mkdir ./lib && node-sass ./scss/ -o ./lib/"
+  }
+}

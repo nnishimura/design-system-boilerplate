@@ -1,0 +1,16 @@
+{
+  "name": "@sample/themes",
+  "version": "0.0.0-0",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/theme.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nnishimura/design-system-boilerplate.git",
+    "directory": "packages/theme"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && mkdir ./lib && cp -r ./scss/ ./lib/ && node-sass ./scss/ -o ./lib/css/"
+  }
+}

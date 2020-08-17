@@ -1,0 +1,111 @@
+$selector-root-sample: ':root' !default;
+
+#{$selector-root-sample} {
+
+  --primary-lighten-2-color: #F3E9FB;
+  --primary-lighten-1-color: #F3E9FB;
+  --primary-color: #ffba08;
+  --primary-darken-1-color: #faa307;
+  --primary-darken-2-color: #f48c06;
+
+  --secondary-lighten-1-color: #6B8BFF;
+  --secondary-color: #4A68F9;
+  --secondary-darken-1-color: #2743CC;
+  --secondary-darken-2-color: #253BAA;
+
+  --success-lighten-1-color: #37E7A7;
+  --success-color: #00B574;
+  --success-darken-1-color: #00BF63;
+
+  --warning-lighten-1-color: #F9D51C;
+  --warning-color: #EDB800;
+
+  --error-lighten-1-color: #FF5070;
+  --error-color: #DB1B1B;
+
+  --disabled-text-color: #A5AAAF;
+  --disabled-background-color: #E6E6EB;
+
+  --overlay-dark-color: rgba(0, 0, 0, 0.5);
+
+  --opaque-purple-1: #F3E9FB;
+  --opaque-green-1: #F0FFF9;
+  --opaque-blue-1: #F0F3FF;
+
+  --green-100: #6EFAC3;
+  --green-200: #00E7A1;
+  --green-300: #00B574;
+  --green-400: #0B8350;
+
+  --gray-100: #F0F0F5;
+  --gray-200: #E6E6EB;
+  --gray-300: #D5D6DA;
+  --gray-400: #A5AAAF;
+  --gray-500: #6E767D;
+  --gray-600: #333F48;
+  --gray: #A5AAAF;
+
+  --black: #000000;
+
+  --border-color: #E5E5E5;
+  --text-color: #000000;
+
+  --background-color: rgba(240, 240, 245, 0.25);
+
+  /* typography */
+  --font-family: 'Noto Sans JP', 'Apercu Pro', 'Arial', sans-serif;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 22px;
+  --font-size-4xl: 24px;
+  --font-size-5xl: 30px;
+  --font-size-6xl: 32px;
+  --line-height-base: 1.6;
+
+  /* spacers */
+  // --space-3xs: 0.5px;
+  // --space-2xs: 1px;
+  // --space-xs: 3px;
+  --spacer-sm: 7px;
+  --spacer: 14px;
+  --spacer-lg: 20px;
+  --spacer-xl: 28px;
+  --spacer-2xl: 40px;
+  --spacer-3xl: 60px;
+  --spacer-4xl: 90px;
+
+  /* animation */
+  --ease-out-circ: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+
+  /* UI components theming */
+  --drop-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+  --border-radius: 5px;
+
+  --button-radius: 0px;
+  --button-padding-y-sm: 4px;
+  --button-padding-x-sm: 12px;
+  --button-padding-y: 10px;
+  --button-padding-x: 21px;
+
+  --icon-size-xs: 14px;
+  --icon-size-sm: 16px;
+  --icon-size: 26px;
+
+  --input-padding-y: 9px;
+  --input-padding-x: 18px;
+  --input-height: 36px;
+  --input-border-color: #d4d4d4;
+  --multi-select-height: 48px;
+
+  --card-border-radius: 10px;
+
+  // spinner
+  --spinner-size-lg: 100px;
+  --spinner-size: 80px;
+  --spinner-size-sm: 20px;
+  --spinner-border-width: 8px;
+  --spinner-border-width-sm: 2px;
+}

@@ -1,0 +1,52 @@
+$selector-root-sample: '[data-theme="sample"]';
+
+@import '~@sample/themes/lib/reset.scss';
+@import '~@sample/icons/lib/icons.scss';
+@import '~@sample/typography/lib/fonts.css';
+@import '~@sample/themes/lib/themes/default.scss';
+@import '~@sample/themes/lib/themes/sample.scss';
+
+* {
+  font-family: 'Arial', sans-serif !important;
+}
+
+// Color palette
+.docblock-colorpalette {
+  & > div {
+    display: block;
+    &:first-child {
+      display: none;
+    }
+    & > div:first-child {
+      padding-bottom: var(#{--spacer-sm});
+    }
+  }
+}
+
+// Other stories
+.grid-table {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row-gap: var(#{--spacer});
+}
+
+.row-table {
+  display: grid;
+  grid-row-gap: var(#{--spacer});
+}
+
+.input-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: var(#{--spacer});
+  grid-column-gap: var(#{--spacer});
+}
+
+.icon-android {
+  font-size: 23px;
+}
+
+.theme-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

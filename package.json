@@ -1,0 +1,61 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "build:doc": "vue-cli-service storybook:build --docs",
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "lerna bootstrap",
+    "test": "lerna run test",
+    "start": "start-storybook -p 9009",
+    "lint": "lerna run lint --parallel --stream",
+    "lint:fix": "lerna run lint:fix --parallel",
+    "clean": "lerna clean",
+    "publish": "lerna publish"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "yarn": ">= 1.12.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "~6.0.0",
+    "@storybook/addon-actions": "~6.0.0",
+    "@storybook/addon-docs": "~6.0.0",
+    "@storybook/addon-essentials": "~6.0.0",
+    "@storybook/addon-storysource": "~6.0.0",
+    "@storybook/addon-toolbars": "~6.0.0",
+    "@storybook/vue": "~6.0.0",
+    "@types/jest": "~26.0.9",
+    "@typescript-eslint/eslint-plugin": "~2.26.0",
+    "@typescript-eslint/parser": "~2.26.0",
+    "@vue/cli-plugin-babel": "~4.5.2",
+    "@vue/cli-plugin-eslint": "~4.5.2",
+    "@vue/cli-plugin-typescript": "~4.5.2",
+    "@vue/cli-plugin-unit-jest": "~4.5.2",
+    "@vue/cli-service": "~4.5.2",
+    "@vue/eslint-config-standard": "~5.1.2",
+    "@vue/eslint-config-typescript": "~5.0.2",
+    "@vue/test-utils": "1.0.3",
+    "babel-loader": "~8.1.0",
+    "babel-preset-vue": "~2.0.2",
+    "eslint": "~6.7.2",
+    "eslint-plugin-import": "~2.22.0",
+    "eslint-plugin-node": "~11.1.0",
+    "eslint-plugin-promise": "~4.2.1",
+    "eslint-plugin-standard": "~4.0.1",
+    "eslint-plugin-vue": "~6.2.2",
+    "node-sass": "~4.12.0",
+    "sass-loader": "~8.0.2",
+    "typescript": "~3.8.3",
+    "vue-template-compiler": "~2.6.11",
+    "lerna": "~3.22.1"
+  },
+  "dependencies": {
+    "@sample/icons": "file:packages/icons",
+    "@sample/themes": "file:packages/themes",
+    "@sample/typography": "file:packages/typography",
+    "vue": "~2.6.11"
+  }
+}
