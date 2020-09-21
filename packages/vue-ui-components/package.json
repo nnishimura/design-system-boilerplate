@@ -1,6 +1,6 @@
 {
   "name": "@sample/vue-ui-components",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -32,8 +32,8 @@
     "babel-loader": "~8.1.0",
     "babel-preset-vue": "~2.0.2",
     "typescript": "~3.8.3",
-    "vue-template-compiler": "~2.6.11",
-    "vue": "~2.6.11"
+    "vue": "~2.6.11",
+    "vue-template-compiler": "~2.6.11"
   },
   "peerDependencies": {
     "vue": ">=2.0.0 <3"

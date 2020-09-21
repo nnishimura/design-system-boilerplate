@@ -1,7 +1,10 @@
 {
   "name": "@sample/typography",
-  "version": "0.0.0-0",
-  "files": ["lib", "fonts"],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "fonts"
+  ],
   "main": "lib/fonts.css",
   "repository": {
     "type": "git",
