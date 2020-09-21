@@ -13,5 +13,6 @@
   },
   "scripts": {
     "build": "rm -rf ./lib && mkdir ./lib && node-sass ./scss/ -o ./lib/"
-  }
+  },
+  "gitHead": "71af358a9b99ad99836690e3cfb77000ea9f0f23"
 }
