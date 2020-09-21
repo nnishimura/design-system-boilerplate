@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@sample/vue-ui-components",
-  "version": "0.0.0-0",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "files": [
     "lib"
