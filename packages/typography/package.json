@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@sample/typography",
   "version": "0.0.1",
   "files": [
@@ -14,5 +15,5 @@
   "scripts": {
     "build": "rm -rf ./lib && mkdir ./lib && node-sass ./scss/ -o ./lib/"
   },
-  "gitHead": "71af358a9b99ad99836690e3cfb77000ea9f0f23"
+  "gitHead": "e9f5bf9c6f7549e968e97a70db9882f795390ad4"
 }
