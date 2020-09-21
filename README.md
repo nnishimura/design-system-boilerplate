@@ -61,6 +61,14 @@ This does the following:
 Please follow the [semver](https://docs.npmjs.com/about-semantic-versioning) methodology when deciding the version number - this is important to avoid introducing unexpected breaking change on library consumer.
 
 
+## Other options
+
+### Generate changelog and skip publish
+
+```
+lerna version --conventional-commits
+```
+
 ## Resources & Reference
 * [IBM corbon design system](https://github.com/carbon-design-system/carbon)
 * [Github design system](https://primer.style/)
