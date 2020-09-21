@@ -18,8 +18,8 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
-    "@sample/icons": "file:packages/icons",
-    "@sample/themes": "file:packages/themes"
+    "@sample/icons": "file:../icons",
+    "@sample/themes": "file:../themes"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.2",
