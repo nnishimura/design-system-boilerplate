@@ -7,8 +7,8 @@ export default {
 
 export const Basic = (args: any) => ({
   components: { Spinner },
-  template: `<spinner v-bind="args" />`,
-  data() {
+  template: '<spinner v-bind="args" />',
+  data () {
     return {
       args
     };

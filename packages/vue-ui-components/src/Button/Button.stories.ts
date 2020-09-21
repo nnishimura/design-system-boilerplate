@@ -12,11 +12,11 @@ export const All = () => {
 
   return {
     components: { dButton },
-    data() {
+    data () {
       return data;
     },
     methods: {
-      toggleTheme() {
+      toggleTheme () {
         data.isSampleTheme = !data.isSampleTheme;
       }
     },
@@ -63,7 +63,7 @@ export const All = () => {
         <d-button outlined @click="toggleTheme">Switch Theme</d-button>
       </div>
     </div>`
-  }
+  };
 };
 
 export const DynamicTheme = () => {
@@ -81,11 +81,11 @@ export const DynamicTheme = () => {
       <li><d-button>Default</d-button></li>
       <li><d-button outlined @click="toggleTheme">Switch Theme</d-button></li>
     </ul>`,
-    data() {
+    data () {
       return data;
     },
     methods: {
-      toggleTheme() {
+      toggleTheme () {
         data.isSampleTheme = !data.isSampleTheme;
         if (data.isSampleTheme) {
           data.themeStyle = {
@@ -98,5 +98,5 @@ export const DynamicTheme = () => {
         }
       }
     }
-  }
+  };
 };
