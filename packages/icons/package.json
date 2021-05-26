@@ -12,7 +12,7 @@
     "directory": "packages/icons"
   },
   "scripts": {
-    "build": "rm -rf ./lib && mkdir ./lib && cp -r ./scss/ ./lib/"
+    "build": "rimraf lib && mkdir lib && copyfiles --up 1 \"./scss/**/*.scss\" ./lib/"
   },
   "gitHead": "e9f5bf9c6f7549e968e97a70db9882f795390ad4"
 }

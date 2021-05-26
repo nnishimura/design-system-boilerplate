@@ -70,7 +70,7 @@ lerna version --conventional-commits
 ```
 
 ## Resources & Reference
-* [IBM corbon design system](https://github.com/carbon-design-system/carbon)
+* [IBM carbon design system](https://github.com/carbon-design-system/carbon)
 * [Github design system](https://primer.style/)
 * [Atlasian design system](https://atlassian.design/components/select/)
 * [Material design guide](https://material.io/design/)
