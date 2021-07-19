@@ -50,13 +50,14 @@
     "lerna": "~3.22.1",
     "node-sass": "~4.13.1",
     "sass-loader": "~8.0.2",
+    "shx": "^0.3.3",
     "typescript": "~3.8.3",
     "vue-template-compiler": "~2.6.11"
   },
   "dependencies": {
-    "@sample/icons": "file:packages/icons",
-    "@sample/themes": "file:packages/themes",
-    "@sample/typography": "file:packages/typography",
+    "@sample/icons": "0.0.0",
+    "@sample/themes": "0.0.0",
+    "@sample/typography": "0.0.0",
     "vue": "~2.6.11"
   },
   "husky": {

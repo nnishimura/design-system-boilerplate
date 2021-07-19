@@ -13,7 +13,7 @@
     "directory": "packages/typography"
   },
   "scripts": {
-    "build": "rm -rf ./lib && mkdir ./lib && node-sass ./scss/ -o ./lib/"
+    "build": "shx rm -rf ./lib && shx mkdir ./lib && node-sass ./scss/ -o ./lib/"
   },
   "gitHead": "e9f5bf9c6f7549e968e97a70db9882f795390ad4"
 }
